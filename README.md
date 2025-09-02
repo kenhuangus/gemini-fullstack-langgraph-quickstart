@@ -133,16 +133,19 @@ The core of the backend is a LangGraph agent defined in `backend/src/agent/graph
 4.  **Iterative Refinement:** If gaps are found or the information is insufficient, it generates follow-up queries and repeats the web research and reflection steps (up to a configured maximum number of loops).
 5.  **Finalize Answer:** Once the research is deemed sufficient, the agent synthesizes the gathered information into a coherent answer, including citations from the web sources, using a Gemini model.
 
-## CLI Example
+## Bonus point: (If you want to see Langraph trace) ##
 
-For quick one-off questions you can execute the agent from the command line. The
-script `backend/examples/cli_research.py` runs the LangGraph agent and prints the
-final answer:
+### Step 1: ###
+Sign up for LangSmith: Go to the LangSmith homepage at smith.langchain.com.
+Click the Sign Up button and create a new account using your email, GitHub, or Discord account. 
+### Step 2:###
+ Navigate to API keys: Log into your LangSmith account.
+In the left-hand navigation menu, click on Settings. Scroll down to the API Keys section. 
+### Step 3: ###
+Create and copy your API to .env file
 
-```bash
-cd backend
-python examples/cli_research.py "What are the latest trends in renewable energy?"
-```
+LANGSMITH_API_KEY
+
 
 
 ## Deployment
