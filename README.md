@@ -135,10 +135,10 @@ The core of the backend is a LangGraph agent defined in `backend/src/agent/graph
 
 ## Bonus point: (If you want to see Langraph trace) ##
 
-### Step 1: ###
+### Step 1: 
 Sign up for LangSmith: Go to the LangSmith homepage at smith.langchain.com.
 Click the Sign Up button and create a new account using your email, GitHub, or Discord account. 
-### Step 2:###
+### Step 2:
  Navigate to API keys: Log into your LangSmith account.
 In the left-hand navigation menu, click on Settings. Scroll down to the API Keys section. 
 ### Step 3:
