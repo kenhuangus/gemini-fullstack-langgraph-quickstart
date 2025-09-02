@@ -141,7 +141,7 @@ Click the Sign Up button and create a new account using your email, GitHub, or D
 ### Step 2:###
  Navigate to API keys: Log into your LangSmith account.
 In the left-hand navigation menu, click on Settings. Scroll down to the API Keys section. 
-### Step 3: ###
+### Step 3:
 Create and copy your API to .env file
 
 LANGSMITH_API_KEY
